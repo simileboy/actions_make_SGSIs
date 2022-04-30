@@ -47,18 +47,18 @@ jobs:
          with:
            repository: "xiaoxindada/SGSI-build-tool"
            latest: true
-           fileName: "SGSI-build-tool.tar"
+           fileName: "SGSI-build-tool-12.tar "
            
        - name: Initialization environment
          run: |
-           sudo tar -xf SGSI-build-tool.tar
+           sudo tar -xf SGSI-build-tool-12.tar 
            sudo rm -rf SGSI-build-tool/12/setup.sh
            sudo mv bin/setup.sh SGSI-build-tool/12/
            cd SGSI-build-tool/12
            sudo bash setup.sh
            
        - name: Download Rom
-         run: sudo wget -c ${{ steps.var.outputs.rom_url }} -O SGSI-build-tool/10/tmp/${{ steps.var.outputs.rom_name }}
+         run: sudo wget -c ${{ steps.var.outputs.rom_url }} -O SGSI-build-tool/12/tmp/${{ steps.var.outputs.rom_name }}
        
        - name: Build Super SGSI
          if: steps.var.outputs.make_super == 'true'
