@@ -45,7 +45,7 @@ jobs:
        - name: Download XiaoxinSGSIs Tools
          uses: robinraju/release-downloader@v1
          with:
-           repository: "simileboy/SGSI-build-tool"
+           repository: "xiaoxindada/SGSI-build-tool"
            latest: true
            fileName: "SGSI-build-tool.tar"
            
