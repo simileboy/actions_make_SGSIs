@@ -1,7 +1,7 @@
 {
   "rom_url": "https://dl3.smartisan.com/ota/mol.darwin-ard11-rom-8.5.0-SEKSA.darwin-user/202112291350/8.5.1-202112291222-user-drw-e3ff9b8cf6.zip",
-  "rom_name": "8.5.1-202112291222-user-drw.zip",
-  "pack_sgsi": "smartisanos-8.5.1-202112291222-user-drw.7z",
+  "rom_name": "8.5.1-smartisan-user-drw.zip",
+  "pack_sgsi": "smartisanos-8.5.1-gsi.7z",
   "make_miui": false,
   "make_flyme": false,
   "make_coloros": false,
